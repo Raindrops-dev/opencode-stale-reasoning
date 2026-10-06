@@ -1,0 +1,16 @@
+{
+  "name": "opencode-stale-reasoning",
+  "version": "1.0.0",
+  "description": "Recover OpenCode v2 HTTP sessions after an upstream rejects replayed encrypted reasoning.",
+  "type": "module",
+  "exports": "./index.mjs",
+  "license": "MIT",
+  "keywords": ["opencode", "plugin", "openai", "responses", "reasoning"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raindrops-dev/opencode-stale-reasoning.git"
+  },
+  "scripts": {
+    "test": "node test.mjs"
+  }
+}
